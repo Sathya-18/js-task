@@ -8,10 +8,11 @@ body{
 
 }
 
-table, tr, td {
+table, tr, td, th {
     border: 1px solid black;
     padding: 5px;
     width: 150px;
     height: 40px;
     text-align: center;
+    margin: 0;
 }

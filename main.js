@@ -1,12 +1,17 @@
-let unitpr = document.querySelectorAll(".num");
-let quantity = document.querySelectorAll(".num2");
+
 let action = document.querySelectorAll(".action");
 
 
+// action.forEach((btn) => {
+//     btn.addEventListener("click", calculate)
+// })
 
-action.forEach((btn) => {
+
+action.forEach(button);
+
+function button(btn) {
     btn.addEventListener("click", calculate)
-})
+}
 
 function calculate() {
     let x = this.parentNode.parentNode;
@@ -21,3 +26,4 @@ function calculate() {
     let out = this.parentNode.nextElementSibling.firstChild
     out.innerText = m;
 }
+
