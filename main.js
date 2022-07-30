@@ -23,7 +23,7 @@ function calculate() {
 
     let m = z * w;
 
-    let out = this.parentNode.nextElementSibling.firstChild
+    let out = x.querySelector("td p")
     out.innerText = m;
 }
 
